@@ -139,7 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileHandling.cpp" />
+    <ClCompile Include="KeyMapping.cpp" />
     <ClCompile Include="Pr0Botter.cpp" />
+    <ClCompile Include="Visual.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileHandling.h" />
+    <ClInclude Include="DataTypes.h" />
+    <ClInclude Include="KeyMapping.h" />
+    <ClInclude Include="Visual.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pr0Botter.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
