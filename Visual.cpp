@@ -182,6 +182,12 @@ void Pr0botter_Visual::setNewKeymapping()
 
 		//reset nextVk_Code
 		globNextVk = 0u;
+
+		//remove hook
+		UnhookWindowsHookEx(
+			KeyboardHook
+		);
+
 	}
 
 	//Set new keymapping active
